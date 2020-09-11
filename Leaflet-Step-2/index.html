@@ -1,17 +1,30 @@
+<!-- Declare the type of document we're sending -->
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Leaflet Step-1</title>
 
-  <!-- Leaflet CSS -->
+<!-- Declare the opening tag and the language-->
+<html lang = "en">
+
+<!-- Declare the start of metadata -->
+<head>
+
+  <!-- Declare the character set encoding -->
+  <meta charset = "UTF-8">
+  <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+  <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+
+  <!-- Declare the title for this tab -->
+  <title> Earthquake & Tectonic Plate Map </title>
+
+  <!-- Declare the Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
 
-  <!-- Our CSS -->
+  <!-- Declare the CSS -->
   <link rel="stylesheet" type="text/css" href="static/css/style.css">
+
+  <!-- Declare the end of metadata -->
 </head>
+
+<!-- Declare the main body of code -->
 <body>
 
   <!-- The div that holds our map -->
@@ -19,9 +32,16 @@
 
   <!-- Leaflet JavaScript -->
   <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+
   <!-- D3 JavaScript -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.3/d3.min.js"></script>
-  <!-- Our JavaScript -->
-  <script type="text/javascript" src="static/js/logic.js"></script>
+    
+  <!-- API Key -->
+    <script type="text/javascript" src="static/js/config.js"></script>
+
+    <!-- JavaScript code -->
+    <script type="text/javascript" src="static/js/logic.js"></script>
+
+<!-- Declare the closing body and html tags -->
 </body>
 </html>
